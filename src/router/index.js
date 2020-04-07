@@ -1,4 +1,4 @@
-const Home = () => require('@/pages/home')
+const Home = () => import('@/pages/home');
 
 export default {
     routes: [

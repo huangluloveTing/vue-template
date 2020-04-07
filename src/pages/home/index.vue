@@ -1,5 +1,15 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    this is home page
+    kkkkkk kkkll
+    sfsf sfsfsfsf
+    sfsfsfsf
+    huanglu
+    <h1>jjj</h1>
+    <h1>jjjssssss</h1>
+    <h1>jjjssssss</h1><h1>jjjssssss</h1>
+    <h1>jjjssssss</h1><h1>jjjssssss</h1>
+  </div>
 </template>
 
 <script>
@@ -17,12 +27,13 @@ export default {
   methods: {
   },
   created() {
+    console.log('home created')
   },
   mounted() {
   }
 }
 </script>
-<style lang='less' scoped>
+<style scoped>
 .home {
   background: #fff;
 }
